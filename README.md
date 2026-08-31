@@ -25,7 +25,7 @@ Graduation project 2026 featuring a LED matrix controlled with an Android mobile
 * Battery Cable
 * USB Cable from AM to BM
 
-## Software:
+### Software:
 * **Arduino IDE 2.3.10** (C/C++)
 * **Libraries:** `<MD_Parola.h>`, `<MD_MAX72xx.h>`, `<SPI.h>`, `<SoftwareSerial.h>`
 
