@@ -32,7 +32,7 @@ Graduation project 2026 featuring a LED matrix controlled with an Android mobile
 ---
 
 ## 📄 Technical Documentation (RO)
-Complete project documentation written for the graduation exam (in Romanian):
+Complete project documentation written for the graduation exam (in Romanian): <br>
 👉 ** [Read Full Documentation (PDF)](...) **
 
 ### Table of contents:
