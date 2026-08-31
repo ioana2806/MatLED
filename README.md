@@ -1,9 +1,9 @@
-# [MatLED]
+# MatLED
 
 > **High School Graduation Project 2026**
 > **Specialization:** Mathematics & Computer Science
-> **Student:** [Tundrea Cristina-Ioana]
-> **High School:** [Saint Sava National College]
+> **Student:** Tundrea Cristina-Ioana
+> **High School:** Saint Sava National College
 
 ---
 
