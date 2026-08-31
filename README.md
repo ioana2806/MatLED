@@ -10,14 +10,18 @@
 ## 📌 Overview
 Graduation project 2026 featuring a LED matrix controlled with an Android mobile app.
 
-![Project Overview](./Overview.jpg)
+<img width="4080" height="3072" alt="ComponentsUsed" src="https://github.com/user-attachments/assets/ed7c46fe-d305-4a42-9290-be00e2368a0f" />
+*Figure 1: Overview of used components
+
+<img width="4080" height="3072" alt="Overview" src="https://github.com/user-attachments/assets/c0c826f2-9e31-4e90-a42f-d84f6d39c680" />
+*Figure 2: Complete hardware setup with Arduino Uno, LED Matrix and HC-05 Bluetooth Module
 
 ---
 
 ## 🛠️ Hardware Components & Technologies
 ### Hardware:
 * Development Board: Arduino Uno R3 using the 8 bit ATmega328P microcontroller
-* Bluetooth Module HC-05
+* HC-05 Bluetooth Module
 * LED Matrix (32 x 8) display using the MAX7219 driver
 * Duracell 9 V alkaline battery
 * Toshiba Heavy Duty 9 V battery
