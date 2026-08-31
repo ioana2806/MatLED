@@ -77,6 +77,20 @@ Brief overview of hardware connections:
 |                          |       TXD      |      Pin 2      | Serial Data Transmission (to Arduino) |
 |                          |       RXD      |      Pin 3      |         Serial Data Reception         |
 
+<p align="center">
+  <img width="400" alt="InitialElectricalScheme" src="https://github.com/user-attachments/assets/03231339-c88a-4dc9-a824-e5d0bb6337b3" />
+  <br>
+  <i>Figure 3: Initial Electrical Scheme</i>
+</p>
+
+---
+
+<p align="center">
+  <img width="400" alt="FinalElectricalScheme" src="https://github.com/user-attachments/assets/623fd985-8a1d-460d-900c-1658d812f81b" />
+  <br>
+  <i>Figure 4: Final Electrical Scheme</i>
+</p>
+
 ---
 
 ## 🚀 User's Guide
@@ -87,4 +101,18 @@ Brief overview of hardware connections:
 5. Click **Upload** to upload the source code on the Arduino Board.
 6. Test the code!
 
+---
 
+<p align="center">
+  <img width="400"  alt="App3 2 (1)" src="https://github.com/user-attachments/assets/b9236d67-acc7-4a52-b594-72af830ed245" />
+  <br>
+  <i>Figure 5: User interface in the Android Mobile App</i>
+</p>
+
+## Final Overview
+
+<p align="center">
+  <img width="400" alt="FinalOverview" src="https://github.com/user-attachments/assets/383fbbd7-c60c-4a71-928c-5ab610e82435" />
+  <br>
+  <i>Figure 6: Final Project Overview</i>
+</p>
