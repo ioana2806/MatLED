@@ -12,17 +12,15 @@ Graduation project 2026 featuring a LED matrix controlled with an Android mobile
 
 <p align="center">
 <img width="400" alt="ComponentsUsed" src="https://github.com/user-attachments/assets/ed7c46fe-d305-4a42-9290-be00e2368a0f" />
+<i>Figure 1: Overview of used components</i>
 </p>
-
-*Figure 1: Overview of used components*
 
 ---
 
 <p align="center">
 <img width="400" alt="Overview" src="https://github.com/user-attachments/assets/c0c826f2-9e31-4e90-a42f-d84f6d39c680" />
+<i>Figure 2: Complete hardware setup with Arduino Uno, LED Matrix and HC-05 Bluetooth Module</i>
 </p>
-
-*Figure 2: Complete hardware setup with Arduino Uno, LED Matrix and HC-05 Bluetooth Module*
 
 ---
 
