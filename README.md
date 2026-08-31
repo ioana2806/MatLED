@@ -14,7 +14,7 @@ Graduation project 2026 featuring a LED matrix controlled with an Android mobile
 
 ## 🛠️ Hardware Components & Technologies
 ### Hardware:
-* Development Board: Arduino Uno R3 using the 8 bytes ATmega328P microcontroller
+* Development Board: Arduino Uno R3 using the 8 bit ATmega328P microcontroller
 * Bluetooth Module HC-05
 * LED Matrix (32 x 8) display using the MAX7219 driver
 * Duracell 9 V alkaline battery
