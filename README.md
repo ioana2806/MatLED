@@ -77,6 +77,8 @@ Brief overview of hardware connections:
 |                          |       TXD      |      Pin 2      | Serial Data Transmission (to Arduino) |
 |                          |       RXD      |      Pin 3      |         Serial Data Reception         |
 
+---
+
 <p align="center">
   <img width="400" alt="InitialElectricalScheme" src="https://github.com/user-attachments/assets/03231339-c88a-4dc9-a824-e5d0bb6337b3" />
   <br>
@@ -112,7 +114,7 @@ Brief overview of hardware connections:
 ## Final Overview
 
 <p align="center">
-  <img width="400" alt="FinalOverview" src="https://github.com/user-attachments/assets/383fbbd7-c60c-4a71-928c-5ab610e82435" />
+  <img width="450" alt="FinalOverview" src="https://github.com/user-attachments/assets/3d11dfb9-8ea5-4ba6-8cb9-eb928d3abadc" />
   <br>
   <i>Figure 6: Final Project Overview</i>
 </p>
