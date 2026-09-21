@@ -97,7 +97,6 @@ Initially, the user interface was strictly functional, made to test out display 
   <i>Figure 5: First User interface in the Android Mobile App</i>
 </p>
 
----
 After solving data transmission issues, I upgraded the user interface. I created a ListPicker named Conecteaza Bluetooth that opens a list of nearby available Bluetooth devices. After picking the HC-05 Bluetooth Module, the Status Label Neconectat changes to CONECTAT. If any other problem occurs, the label switches to DECONECTAT.
 
 Further down, there are two default messages that are displayed as gliding text from right to left and two quick, simple animations.
@@ -109,6 +108,8 @@ The third block is ment for a short text message typed in by the user.
   <br>
   <i>Figure 6: User interface in the Android Mobile App</i>
 </p>
+
+---
 
 ### Instruction Blocks
 When creating a mobile app in MIT App Inventor, you need to connect certain logical instruction blocks, transforming complex programming concepts like classes or entities into a more visual programming process.
