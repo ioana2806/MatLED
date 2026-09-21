@@ -177,17 +177,58 @@ Usually, IoT defines any object or system containing objects that can connect wi
 IoT's main purpose is encouraging data interpretation in order to improve the results. 
 
 <p align="center">
-  <img width="450" alt="IoT" src="InternetOfThings/IoT.png" />
+  <img width="500" alt="IoT" src="InternetOfThings/IoT.png" />
   <br>
   <i>Figure 9: Internet Of Things fundamental steps</i>
 </p>
 
+Regarding this project: 
+
+1. Data capturing: The software app receives data from the user whenever a button is pressed or when typing a short text message and hitting Send
+2. Data sharing: Using Bluetooth communication, data from the user is sent through short waves, with the help of the HC-05 Bluetooth Module. Data shared wirelessly is sent to the Arduino development board.
+3. Data Processing: Arduino receives data wirelessly and runs the source code.
+4. Acting on data: Arduino uses a switch statement in the main loop and controls the display on the LED matrix.
+
+IoT networks and data provided by them are very present in out day to day life, from our houses, our cars, our workplace, shops and to our own bodies. IoT devices have numerous improving possibilities in the future.
+
 ---
 
 ## 🧱 Final Overview
+
+I chose this project to test out and improve my understanding of physical systems and software applications. Having some C++ knowledge, I learned the programming language used to control the Arduino development board.
+
+I started with a simple circuit, containing only the Arduino and LED matrix, powered by a 9V battery, aiming for a singular, repetitive text display.
+
+After mastering this, I created the mobile app, where I could explore the user interface design. Then, I focused on creating an esthetically pleasing and intuitive graphic interface.
+
+The really interesting part stemmed from the whole process of wireless data transmission.
+
+This project turned out to be an interdisciplinary one, as it combined theoretical informatics knowledge and applied physics in electrical circuits. Moreover, I overcame the voltage issues affecting the Bluetooth communication.
+
+To sum up, I am certain that my decision in pursuing the Faculty of Automatic Control and Computer Science, at the National University of Science and Technology POLITEHNICA Bucharest is suitable for me.
 
 <p align="center">
   <img width="450" alt="FinalOverview" src="https://github.com/user-attachments/assets/3d11dfb9-8ea5-4ba6-8cb9-eb928d3abadc" />
   <br>
   <i>Figure 10: Final Project Overview</i>
 </p>
+
+---
+
+## 📚 Bibliography
+
+* https://www.ic-components.ro/blog/ESP32-vs-Arduino-Uno-Performance,Wi-Fi,Bluetooth,Projects,and-Which-Board-Should-You-Choose.jsp
+* https://ocw.cs.pub.ro/courses/pm/prj2022/amocanu/panou_de_afisaj_pe_matrici_led
+* https://www.arduino.cc/reference/en/libraries/md_parola/
+* https://www.arduino.cc/reference/en/libraries/md_max72xx/
+* https://projecthub.arduino.cc/
+* https://microcontrollerslab.com/max7219-dot-matrix-display-arduino-tutorial/
+* https://www.sap.com/romania/resources/what-is-iot
+* https://aeno.com/blog/ro/ce-este-internet-of-things-iot/
+* https://altenromania.ro/evolutia-sistemelor-embedded/
+* https://www.wonderfulpcb.com/ro/blog/i2c-communication-protocol-vs-spi-vs-uart-comparison-guide/
+* http://ro.bateriapoder.com/info/difference-between-zinc-carbon-batteries-and-a-77401777.html
+* https://youtube.com/shorts/jnANTXfhY_0
+* https://youtube.com/shorts/b99LX24jGu8
+* https://youtube.com/shorts/cgi3w15HM_I
+* https://youtube.com/shorts/sfP10eX73QQ
