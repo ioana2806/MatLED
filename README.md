@@ -54,20 +54,6 @@ Using the MIT App Inventor software application and the Bluetooth module, I can 
 
 ---
 
-## 📄 Technical Documentation
-### Table of contents:
-1. Introduction & Justification
-2. Hardware Components Overview
-3. Circuit Schematic & System Architecture
-4. Source Code Structure
-5. User Guide & Mobile App Interface
-6. Challenging issues
-7. Internet of Things
-8. Conclusion
-9. Bibliography
-
----
-
 ## 🔌 Circuit Pinout
 Brief overview of hardware connections:
 
