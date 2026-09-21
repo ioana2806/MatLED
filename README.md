@@ -169,10 +169,10 @@ IoT's main purpose is encouraging data interpretation in order to improve the re
 
 Regarding this project: 
 
-1. Data capturing: The software app receives data from the user whenever a button is pressed or when typing a short text message and hitting Send
-2. Data sharing: Using Bluetooth communication, data from the user is sent through short waves, with the help of the HC-05 Bluetooth Module. Data shared wirelessly is sent to the Arduino development board.
-3. Data Processing: Arduino receives data wirelessly and runs the source code.
-4. Acting on data: Arduino uses a switch statement in the main loop and controls the display on the LED matrix.
+**1. Data capturing**: The software app receives data from the user whenever a button is pressed or when typing a short text message and hitting Send
+**2. Data sharing**: Using Bluetooth communication, data from the user is sent through short waves, with the help of the HC-05 Bluetooth Module. Data shared wirelessly is sent to the Arduino development board.
+**3. Data Processing**: Arduino receives data wirelessly and runs the source code.
+**4. Acting on data**: Arduino uses a switch statement in the main loop and controls the display on the LED matrix.
 
 IoT networks and data provided by them are very present in out day to day life, from our houses, our cars, our workplace, shops and to our own bodies. IoT devices have numerous improving possibilities in the future.
 
