@@ -108,17 +108,45 @@ In order to control the LED matrix display I created a mobile app in MIT App Inv
 Initially, the user interface was strictly functional, made to test out display commands and improve wireless data transmission issues.
 
 <p align="center">
-  <img width="400"  alt="" src="" />
+  <img width="600"  alt="FirstUserInterface1" src="Mobile App/FirstUserInterface1.png" />
   <br>
   <i>Figure 5: First User interface in the Android Mobile App</i>
 </p>
 
 ---
+After solving data transmission issues, I upgraded the user interface. I created a ListPicker named Conecteaza Bluetooth that opens a list of nearby available Bluetooth devices. After picking the HC-05 Bluetooth Module, the Status Label Neconectat changes to CONECTAT. If any other problem occurs, the label switches to DECONECTAT.
+
+Further down, there are two default messages that are displayed as gliding text from right to left and two quick, simple animations.
+
+The third block is ment for a short text message typed in by the user.
 
 <p align="center">
-  <img width="400"  alt="App3 2 (1)" src="https://github.com/user-attachments/assets/b9236d67-acc7-4a52-b594-72af830ed245" />
+  <img width="350"  alt="App3 2 (1)" src="https://github.com/user-attachments/assets/b9236d67-acc7-4a52-b594-72af830ed245" />
   <br>
   <i>Figure 6: User interface in the Android Mobile App</i>
+</p>
+
+### Instruction Blocks
+When creating a mobile app in MIT App Inventor, you need to connect certain logical instruction blocks, transforming complex programming concepts like classes or entities into a more visual programming process.
+
+<p align="center">
+  <img width="600"  alt="InstructionBlocks1" src="Mobile App/InstructionBlocks1.png" />
+  <br>
+  <i>Figure 7: User interface in the Android Mobile App</i>
+</p>
+
+Before clicking Conecteaza Bluetooth, the app interrogates the internal hardware component of the mobile phone **BluetoothClient1.AddressesAndNames**. After clicking the selection element, the app displays a list of nearby Bluetooth devices. After picking the HC-05 Bluetooth Module, the Status Label changes to CONECTAT.
+
+Each button from the interface has an **when Button.Click do** event handler attached. After clicking, the app call the **BluetoothClient1.SendText** function to send a short message (1-5) via Bluetooth to the Arduino Uno.
+
+For example, when clicking the **Hello World!** button, the app sends the character '1' through Bluetooth to the Arduino. The development board then processes this character in a switch statement.
+
+As for the short text message typed in by the user, it gets send wirelessly with an extra character '5' at the beginning so the switch statement can figure out it is the text message. Then, the first character gets cut off, and the text displayed is the original one.
+
+<p align="center">
+  <img width="600"  alt="InstructionBlocks2" src="Mobile App/InstructionBlocks2.png" />
+  <br>
+  <i>Figure 8: User interface in the Android Mobile App</i>
 </p>
 
 ## Final Overview
@@ -126,5 +154,5 @@ Initially, the user interface was strictly functional, made to test out display 
 <p align="center">
   <img width="450" alt="FinalOverview" src="https://github.com/user-attachments/assets/3d11dfb9-8ea5-4ba6-8cb9-eb928d3abadc" />
   <br>
-  <i>Figure 7: Final Project Overview</i>
+  <i>Figure 9: Final Project Overview</i>
 </p>
