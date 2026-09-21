@@ -43,8 +43,6 @@ Using the MIT App Inventor software application and the Bluetooth module, I can 
 ### Software:
 * **Arduino IDE 2.3.10** (C/C++)
 * **Libraries:** `<MD_Parola.h>`, `<MD_MAX72xx.h>`, `<SPI.h>`, `<SoftwareSerial.h>`
-  
----
 
 <p align="center">
   <img width="400" alt="Overview" src="https://github.com/user-attachments/assets/c0c826f2-9e31-4e90-a42f-d84f6d39c680" />
