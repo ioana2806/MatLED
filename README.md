@@ -132,7 +132,7 @@ When creating a mobile app in MIT App Inventor, you need to connect certain logi
 <p align="center">
   <img width="600"  alt="InstructionBlocks1" src="Mobile App/InstructionBlocks1.png" />
   <br>
-  <i>Figure 7: User interface in the Android Mobile App</i>
+  <i>Figure 7: Instruction Blocks 1</i>
 </p>
 
 Before clicking Conecteaza Bluetooth, the app interrogates the internal hardware component of the mobile phone **BluetoothClient1.AddressesAndNames**. After clicking the selection element, the app displays a list of nearby Bluetooth devices. After picking the HC-05 Bluetooth Module, the Status Label changes to CONECTAT.
@@ -146,13 +146,48 @@ As for the short text message typed in by the user, it gets send wirelessly with
 <p align="center">
   <img width="600"  alt="InstructionBlocks2" src="Mobile App/InstructionBlocks2.png" />
   <br>
-  <i>Figure 8: User interface in the Android Mobile App</i>
+  <i>Figure 8: Instruction Blocks 2</i>
 </p>
 
-## Final Overview
+---
+
+## 🧩 Challenging issues
+The first issue was the insufficient tension provided by the 9V Toshiba Heavy Duty Battery or my Toshiba laptop. I realized that whenever I tried alimenting the circuit with these two, the Bluetooth Module didn't turn on because of lack of tension and the LED matrix had a sluggish performance.
+
+At first, I thought this was caused by issues with the jumper wires, but the physical circuit was not the problem. In the mobile app, the Bluetooth Module wasn't even included in the list of available devices.
+
+The Toshiba Heavy Duty Battery is a zinc-carbon battery and has a great internal resistance, fit for TV remotes or analog clocks. When connected to my circuit, it couldn't provide the necessary tension and so the voltage dropped below the operational threshold. As for my Toshiba laptop, it limited the voltage coming out because of a power saving setting and could frequently lead to excessive voltage drops caused by the length or width of the cable.
+
+To solve this problem, I switched the Toshiba Battery with a 9V Duracell alkaline battery that has an insignificant internal resistance, ideal for the Bluetooth Module requiring 4.2 V - 5 V. 
+
+The difference was immediate. The two lights on the Bluetooth Module were on, signaling it was ready to pair.
+
+Another challenging situation was the Broken Pipe Error 516 coming in from the mobile app. The standard serial Arduino port timeout is 1000 ms. This means the code running on the Arduino pauses for a full second, waiting for a clear wireless message. 
+
+With the help of the **BTSerial.setTimeout(50)**, I set the timeout to only 50 ms, allowing the development board to continue running the code in the loop after only 50 ms, preventing the system from crashing or the Bluetooth Module from disengaging.  
+
+---
+
+## 🌐 Internet of Things (IoT)
+
+My small embedded system can be integrated in the concept of Internet of Things.
+
+Usually, IoT defines any object or system containing objects that can connect wirelessly to an Internet network. Today, IoT means objects equipped with sensors, software technologies designed to receive and transmit data to inform the user or to automate an action.
+
+IoT's main purpose is encouraging data interpretation in order to improve the results. 
+
+<p align="center">
+  <img width="450" alt="IoT" src="InternetOfThings/IoT.png" />
+  <br>
+  <i>Figure 9: Internet Of Things fundamental steps</i>
+</p>
+
+---
+
+## 🧱 Final Overview
 
 <p align="center">
   <img width="450" alt="FinalOverview" src="https://github.com/user-attachments/assets/3d11dfb9-8ea5-4ba6-8cb9-eb928d3abadc" />
   <br>
-  <i>Figure 9: Final Project Overview</i>
+  <i>Figure 10: Final Project Overview</i>
 </p>
