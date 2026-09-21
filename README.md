@@ -70,7 +70,7 @@ Brief overview of hardware connections:
 ---
 
 <p align="center">
-  <img width="400" alt="InitialElectricalScheme" src="https://github.com/user-attachments/assets/03231339-c88a-4dc9-a824-e5d0bb6337b3" />
+  <img width="550" alt="InitialElectricalScheme" src="https://github.com/user-attachments/assets/03231339-c88a-4dc9-a824-e5d0bb6337b3" />
   <br>
   <i>Figure 3: Initial Electrical Scheme</i>
 </p>
@@ -78,7 +78,7 @@ Brief overview of hardware connections:
 ---
 
 <p align="center">
-  <img width="400" alt="FinalElectricalScheme" src="https://github.com/user-attachments/assets/623fd985-8a1d-460d-900c-1658d812f81b" />
+  <img width="550" alt="FinalElectricalScheme" src="https://github.com/user-attachments/assets/623fd985-8a1d-460d-900c-1658d812f81b" />
   <br>
   <i>Figure 4: Final Electrical Scheme</i>
 </p>
