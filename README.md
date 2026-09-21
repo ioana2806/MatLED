@@ -77,7 +77,7 @@ Brief overview of hardware connections:
 |                          |       GND      |       GND       |                 Ground                |
 |                          |       DIN      |      Pin 11     |           Data Transmission           |
 |                          |       CS       |      Pin 10     |              Chip Select              |
-|                          |       CLK      |      Pin 6      |     Hardware Sincronisation Clock     |
+|                          |       CLK      |      Pin 6      |     Hardware Synchronization Clock     |
 | _Bluetooth HC-05 Module_ |       VCC      |       5 V       |         Positive Alimentation         |
 |                          |       GND      |       GND       |                 Ground                |
 |                          |       TXD      |      Pin 2      | Serial Data Transmission (to Arduino) |
@@ -101,20 +101,24 @@ Brief overview of hardware connections:
 
 ---
 
-## 🚀 User's Guide
-1. Download or clone the source code (`.ino` file).
-2. Open the file in **Arduino IDE**.
-3. Install the required libraries via the *Library Manager*.
-4. Select the correct Board and COM Port under **Tools**.
-5. Click **Upload** to upload the source code on the Arduino Board.
-6. Test the code!
+## 🚀 Mobile App
+### User Interface
+In order to control the LED matrix display I created a mobile app in MIT App Inventor, compatible with Android.
+
+Initially, the user interface was strictly functional, made to test out display commands and improve wireless data transmission issues.
+
+<p align="center">
+  <img width="400"  alt="" src="" />
+  <br>
+  <i>Figure 5: First User interface in the Android Mobile App</i>
+</p>
 
 ---
 
 <p align="center">
   <img width="400"  alt="App3 2 (1)" src="https://github.com/user-attachments/assets/b9236d67-acc7-4a52-b594-72af830ed245" />
   <br>
-  <i>Figure 5: User interface in the Android Mobile App</i>
+  <i>Figure 6: User interface in the Android Mobile App</i>
 </p>
 
 ## Final Overview
@@ -122,5 +126,5 @@ Brief overview of hardware connections:
 <p align="center">
   <img width="450" alt="FinalOverview" src="https://github.com/user-attachments/assets/3d11dfb9-8ea5-4ba6-8cb9-eb928d3abadc" />
   <br>
-  <i>Figure 6: Final Project Overview</i>
+  <i>Figure 7: Final Project Overview</i>
 </p>
